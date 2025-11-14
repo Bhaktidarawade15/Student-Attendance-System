@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sunshine School Attendance - Login</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="login-page">
+  <div class="login-container">
+    <!-- Left: School photo -->
+    <div class="login-image">
+      <img src="School_Building.jpeg" alt="School Building">
+    </div>
+
+    <!-- Right: Login form -->
+    <div class="login-form-wrapper">
+      <div class="login-header">
+        <img src="School_Logo.png" alt="School Logo" class="school-logo">
+        <h1>Sunshine School</h1>
+        <p>Excellence in Education Since 1990<br>123 School Street, Cityville</p>
+      </div>
+
+      <div class="login-card">
+        <h2>Attendance Portal Login</h2>
+        <form action="LoginServlet" method="post">
+          <div class="input-group">
+            <i class="fa fa-user"></i>
+            <input type="text" name="username" placeholder="Username" required>
+          </div>
+          <div class="input-group">
+            <i class="fa fa-lock"></i>
+            <input type="password" name="password" placeholder="Password" required>
+          </div>
+          <button type="submit" class="login-btn">Login</button>
+        </form>
+        <p class="footer-text">© 2025 Sunshine School. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
